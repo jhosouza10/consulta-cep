@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<header>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/reset.css">
+    <link rel="stylesheet" type="text/css" href="estilos/navbar.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="estilos/estilo.css" media="screen" />
+
+    <title>Consulta CEP</title>
+</header>
+    <body>     <!--//Criando as classes e formatando a navbar-->
+        <nav>
+            <div class="logo">
+                <a href="index.html"><img src="img/mapa.png"></a>
+            </div>
+            <ul class="nav__links">
+                <li><a href="index.html"><b>Consultar</b></a>
+                <li><a href="index.html"><b>Sobre</b></a>
+                <li><a href="index.html"><b>Contato</b></a>
+            </ul>
+        </nav>
+
+        <!--//Criando os campos de input do CEP e retorno dos dados-->
+        <div class="container">
+            <h2><B>CONSULTE CEP AQUI</B></h2>
+            <!--//Form para requisição dos dados-->
+            <form>
+                <div class="frm-row">
+                    <label for="cep"><b>CEP</b></label>
+                    <input type="text" name="cep" id="cep" maxlength="8">
+                </div>
+                <div class="frm-row">
+                    <label for="rua"><b>RUA</b></label>
+                    <input type="text" name="rua" id="rua">
+                </div>
+                <div class="frm-row">
+                    <label for="bairro"><b>BAIRRO</b></label>
+                    <input type="text" name="bairro" id="bairro">
+                </div>
+                <div class="frm-row">
+                    <label for="cidade"><b>CIDADE</b></label>
+                    <input type="text" name="cidade" id="cidade">
+                </div>
+                <div class="frm-row">
+                    <label for="estado"><b>ESTADO</b></label>
+                    <input type="text" name="estado" id="estado">
+                </div>
+            </form>
+        </div>
+
+        <!--vinculando javascript-->
+        <script src="./JavaScript/consulta-endereco.js"></script>
+    </body>
+</html>

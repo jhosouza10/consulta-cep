@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Noto+Sans&display=swap');
+
+a {
+
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: blue;
+    transition: 0.3s;
+}
+
+.logo img{
+    width: 70px;
+    margin-right: 150px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #5F9EA0;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    height: 80px;
+}
+
+.nav__links {
+    list-style: none;
+    display: flex;
+}
+
+.nav__links li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
